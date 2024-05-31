@@ -1,18 +1,21 @@
-## Getting Started
+## Introduction
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project is to generate embeded javascript for PDF file.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+## Project setup
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+####  To install Java (skip if you have already have Java in your environment):
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Open project in VSCode
+2. Install https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack
+3. Go to https://code.visualstudio.com/docs/languages/java#_install-a-java-development-kit-jdk
+4. Choose Amazon Corretto
+5. In new page: https://aws.amazon.com/corretto/?filtered-posts.sort-by=item.additionalFields.createdDate&filtered-posts.sort-order=desc, select Download Corretto 21
+6. Choose windowx64 msi version, download and install
+7. Reload VSCode window
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+####  Run project:
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Open project in VSCode
+2. Hit F5 to start running.
